@@ -1,0 +1,26 @@
+{
+  "name": "pwa-icon-generator",
+  "version": "0.0.1",
+  "description": "A commandline Node tool that converts a given PNG into a series of PWA touch-icons",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndorfin/pwa-icon-generator.git"
+  },
+  "keywords": [
+    "commandline",
+    "imagemagick",
+    "icons",
+    "progressive-web-apps"
+  ],
+  "author": "Shaun O'Connell @nodrfin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndorfin/pwa-icon-generator/issues"
+  },
+  "homepage": "https://github.com/ndorfin/pwa-icon-generator#readme",
+  "devDependencies": {
+    "imagemagick": "^0.1.3"
+  }
+}
