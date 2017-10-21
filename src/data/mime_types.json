@@ -1,0 +1,14 @@
+[
+  {
+    "type": "image/png",
+    "abbr": "PNG",
+    "name": "Portable Network Graphics",
+    "description": "8-bit or 24-bit indexed bitmaps"
+  },
+  {
+    "type": "image/x-icon",
+    "abbr": "ICO",
+    "name": "Icon",
+    "description": "Small, indexed-colour, bitmaps used in most operating systems"
+  }
+]
