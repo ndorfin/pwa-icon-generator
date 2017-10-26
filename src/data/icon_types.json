@@ -3,6 +3,7 @@
     "name": "favicon.ico",
     "type": "image/x-icon",
     "description": "Browser Title Icon",
+    "aspect": "square",
     "width": 16,
     "height": 16
   },
@@ -10,44 +11,54 @@
     "name": "favicon.ico",
     "type": "image/x-icon",
     "description": "Taskbar Shortcut Icon",
+    "aspect": "square",
     "width": 32,
     "height": 32
   },
   {
-    "name": "apple-touch-icon-precomposed.png",
-    "type": "image/png",
-    "width": 57,
-    "height": 57
-  },
-  {
     "name": "apple-touch-icon-57x57-precomposed.png",
     "type": "image/png",
+    "aspect": "square",
     "width": 57,
     "height": 57
   },
   {
     "name": "apple-touch-icon-60x60-precomposed.png",
     "type": "image/png",
+    "aspect": "square",
+    "platform": "iOS7",
+    "device": "iPhone",
+    "browser": "Safari",
     "width": 60,
     "height": 60
   },
   {
-    "name": "ms-touch-icon-70x70.png",
+    "name": "ms-tile-70x70.png",
     "type": "image/png",
-    "platform": "windows",
+    "platform": "windows8",
+    "browser": "ie11",
     "description": "Windows Metro UI Icon, Square",
+    "aspect": "square",
     "width": 70,
     "height": 70
   },
   {
-    "name": "touch-icon-72x72.png",
+    "name": "apple-touch-icon-72x72-precomposed.png",
     "type": "image/png",
+    "aspect": "square",
+    "platform": "iOS6",
+    "device": "iPad",
+    "browser": "Safari",
     "width": 72,
     "height": 72
   },
   {
     "name": "apple-touch-icon-76x76-precomposed.png",
     "type": "image/png",
+    "aspect": "square",
+    "platform": "iOS7",
+    "device": "iPad",
+    "browser": "Safari",
     "width": 76,
     "height": 76
   },
@@ -55,21 +66,27 @@
     "name": "touch-icon-96x96.png",
     "type": "image/png",
     "description": "Desktop Shortcut Icon & Google TV Icon",
+    "aspect": "square",
     "width": 96,
     "height": 96
   },
   {
     "name": "apple-touch-icon-114x114-precomposed.png",
     "type": "image/png",
+    "aspect": "square",
+    "platform":"iOS6",
+    "device": "iPhone",
+    "browser": "Safari",
     "width": 114,
     "height": 114
   },
   {
     "name": "apple-touch-icon-120x120-precomposed.png",
     "type": "image/png",
-    "platform": "iOS",
+    "aspect": "square",
+    "platform": "iOS7",
+    "device": "iPhone",
     "browser": "Safari",
-    "description": "iPhone Retina, iOS 7+",
     "width": 120,
     "height": 120
   },
@@ -78,21 +95,36 @@
     "type": "image/png",
     "platform": "webstore",
     "description": "Chrome Webstore Icon",
+    "aspect": "square",
     "width": 128,
     "height": 128
   },
   {
     "name": "apple-touch-icon-144x144-precomposed.png",
     "type": "image/png",
+    "aspect": "square",
+    "platform": "iOS6",
+    "device": "iPad",
     "width": 144,
     "height": 144
   },
   {
+    "name": "ms-tile-150x150.png",
+    "type": "image/png",
+    "platform": "windows8",
+    "browser": "ie11",
+    "description": "Windows Metro UI Icon, Square",
+    "aspect": "square",
+    "width": 150,
+    "height": 150
+  },
+  {
     "name": "apple-touch-icon-152x152-precomposed.png",
     "type": "image/png",
+    "aspect": "square",
     "platform": "iOS",
+    "device": "iPad",
     "browser": "Safari",
-    "description": "iPad Retina, iOS 7+",
     "width": 152,
     "height": 152
   },
@@ -102,6 +134,7 @@
     "platform": "iOS",
     "browser": "Safari",
     "description": "iPad Pro, iOS 8+",
+    "aspect": "square",
     "width": 167,
     "height": 167
   },
@@ -110,21 +143,25 @@
     "type": "image/png",
     "platform": "iOS",
     "browser": "Safari",
+    "aspect": "square",
     "width": 180,
     "height": 180
   },
   {
     "name": "apple-touch-icon-180x180-precomposed.png",
     "type": "image/png",
-    "platform": "iOS",
+    "platform": "iOS8",
+    "device": "iPhone",
     "browser": "Safari",
-    "description": "iPhone 6 Plus, iOS 8+",
+    "description": "iPhone 6 Plus",
+    "aspect": "square",
     "width": 180,
     "height": 180
   },
   {
     "name": "touch-icon-192x192.png",
     "type": "image/png",
+    "aspect": "square",
     "width": 192,
     "height": 192
   },
@@ -133,6 +170,7 @@
     "type": "image/png",
     "browser": "chrome",
     "platform": "android",
+    "aspect": "square",
     "width": 196,
     "height": 196
   },
@@ -141,6 +179,7 @@
     "type": "image/png",
     "browser": "opera",
     "description": "Opera Coast Icon",
+    "aspect": "square",
     "width": 228,
     "height": 228
   },
@@ -148,30 +187,36 @@
     "name": "touch-icon-256x256.png",
     "type": "image/png",
     "platform": "android",
+    "aspect": "square",
     "width": 256,
     "height": 256
   },
   {
-    "name": "ms-touch-icon-270x270.png",
+    "name": "ms-tile-270x270.png",
     "type": "image/png",
     "platform": "windows",
     "description": "Windows Metro UI Icon, Square",
+    "aspect": "square",
     "width": 270,
     "height": 270
   },
   {
-    "name": "ms-touch-icon-310x150.png",
+    "name": "ms-tile-310x150.png",
     "type": "image/png",
-    "platform": "windows",
-    "description": "Windows Metro UI Icon, Landscape",
+    "platform": "windows8",
+    "browser": "ie11",
+    "description": "Windows Metro UI Icon",
+    "aspect": "landscape",
     "width": 310,
     "height": 150
   },
   {
-    "name": "ms-touch-icon-310x310.png",
+    "name": "ms-tile-310x310.png",
     "type": "image/png",
-    "platform": "windows",
-    "description": "Windows Metro UI Icon, Square",
+    "platform": "windows8",
+    "browser": "ie11",
+    "description": "Windows Metro UI Icon",
+    "aspect": "square",
     "width": 310,
     "height": 310
   }

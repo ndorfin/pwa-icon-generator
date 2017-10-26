@@ -2,13 +2,19 @@
   {
     "type": "image/png",
     "abbr": "PNG",
+    "extension": "png",
     "name": "Portable Network Graphics",
-    "description": "8-bit or 24-bit indexed bitmaps"
+    "description": "8-bit or 24-bit indexed or true-colour bitmaps"
   },
   {
     "type": "image/x-icon",
     "abbr": "ICO",
+    "extension": "ico",
     "name": "Icon",
-    "description": "Small, indexed-colour, bitmaps used in most operating systems"
+    "description": "Small, indexed-colour, bitmaps used in most operating systems",
+    "notes": [
+      "Uncompressed by default. Don't forget to try gzipping these.",
+      "Can contain multiple sizes in one file"
+    ]
   }
 ]
